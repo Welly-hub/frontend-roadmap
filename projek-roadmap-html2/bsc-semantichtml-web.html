@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Frontend Developer</title>
+    <style>
+        /* CSS untuk tampilan tabel */
+        .semantic-table-head {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0px 0;
+        }
+        .semantic-table-head, .semantic-table-head th {
+            border: 1px solid black;
+        }
+        .semantic-table-head td {
+            padding: 5px 5px;
+            vertical-align: top;
+        }
+        .semantic-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0px 0;
+        }
+        .semantic-table, .semantic-table th, .semantic-table td {
+            border: 1px solid black;
+        }
+        .semantic-table td {
+            padding: 5px 5px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <table class="semantic-table-head">
+            <tr>
+                <td style="width: 50%;height: auto;" colspan="3">
+                    <img src="cv-icon.png" alt="icon" style="width: 30px; vertical-align: middle;">
+                    <span><b>Your name</b></span>
+                </td>
+                <td style="vertical-align: middle;"><b>Home</b></td>
+                <td style="vertical-align: middle;"><b>/</b></td>
+                <td style="vertical-align: middle;"><b>Projects</b></td>
+                <td style="vertical-align: middle;"><b>/</b></td>
+                <td style="vertical-align: middle;"><b>Articles</b></td>
+                <td style="vertical-align: middle;"><b>/</b></td>
+                <td style="vertical-align: middle;"><b>Contact</b></td>
+            </tr>
+            <tr>
+                <td colspan="10" style="text-align: center; font-size: 1.5em; padding: 15px 0;">
+                    <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-bottom: 5px;">Frontend Developer</h1>
+                    <p style="margin-top: 5px;font-size: medium;opacity: 50%;">html only with proper layout, no styling</p>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <table class="semantic-table">
+            <tr>
+                <td colspan="2" rowspan="5">
+                    <section aria-labelledby="projects-heading">
+                        <h2 style="padding-left: 10px;" id="projects-heading">Projects</h2>
+                        <p style="padding-left: 10px;" id="projects-heading">HTML Only Portofolio</p>
+                        <table style="padding: 0;margin: 0;width: 100%; border-collapse: collapse;">
+                            
+                            <tr>
+                                <td style="border: 1px solid black; padding: 8px 10px;">Calculator</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid black; padding: 8px 10px;">Quiz App</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid black; padding: 8px 10px;">Countdown Timer</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid black; padding-top: 10px;padding-bottom: 60px;padding-left:10px;">Product Upcoming Page</td>
+                            </tr>
+                        </table>
+                    </section>
+                </td>
+                <td colspan="3" rowspan="2">
+                    <section aria-labelledby="experience-heading">
+                        <h2 style="padding-left: 10px;" id="experience-heading">Work Experience</h2>
+                        <article>
+                            <h3 style="font-size: medium;padding-left: 10px;">Roadmap.sh</h3>
+                            <p style="padding-left: 10px;">Solved all the frontend projects</p>
+                            <a style="text-decoration: none;padding-left: 10px;" href="https://kenapabelajarilmu.blogspot.com/"><b>Visit my invite</b></a>
+                        </article>
+                    </section>
+                </td>
+                <td colspan="4" rowspan="5">
+                    <section aria-labelledby="education-heading">
+                        <h2 style="padding-left: 10px;" id="education-heading">Education</h2>
+                        <p style="padding-left: 10px;">Graduated with 3.78 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions</p>
+                        <p style="padding-left: 10px;">Courses Look:</p>
+                        <ul style="padding-left: 30px;">
+                            <li>Object Oriented Programming</li>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Web Engineering</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Human Computer Interaction</li>
+                            <li>Computer Graphics</li>
+                            <li>Database Management Systems</li>
+                            <li>Distributed Database Systems</li>
+                            <li>Discreet Mathematics</li>
+                            <!-- ... -->
+                        </ul>
+                    </section>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td colspan="3" rowspan="3">
+                    <article>
+                        <h3 style="font-size: medium;padding-left: 10px;">OpenSource Work</h3>
+                        <p style="padding-left: 10px;">Contributed to 50 connectors projects:<br>
+                        Make my own projects with 200 GitHub Stars.</p>
+                        <a style="padding-left: 10px;text-decoration: none;" href="https://kenapabelajarilmu.blogspot.com/"><b>Visit my GitHub Profile</b></a>
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <table class="semantic-table">
+            <tr>
+                <td colspan="10">
+                    <h2 style="padding-left: 10px;">Reviews from my Teachers</h2>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <blockquote>
+                        <p>John doe was a brilliant student;
+                            always stood out with his assignments</p>
+                        <footer style="opacity: 50%;font-style: oblique;">John Doe<br>Academic Professor</footer>
+                    </blockquote>
+                </td>
+                <td></td>
+                <td>
+                    <blockquote>
+                        <p>John doe was a brilliant student;
+                            always stood out with his assignments</p>
+                        <footer style="opacity: 50%;font-style: oblique;">John Doe<br>Academic Professor</footer>
+                    </blockquote>
+                </td>
+                <td></td>
+                <td>
+                    <blockquote>
+                        <p>John doe was a brilliant student;
+                            always stood out with his assignments</p>
+                        <footer style="opacity: 50%;font-style: oblique;">John Doe<br>Academic Professor</footer>
+                    </blockquote>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9" style="text-align: center; padding: 30px 0;">
+                    <p>© all rights reserved 2025</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
