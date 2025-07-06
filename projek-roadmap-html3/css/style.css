@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portoheader-1 {
+    border: 1px solid black;
+    width: 30%;height: auto;
+    padding: 0vw;
+    margin: 5vw 2vw 0vw;
+}
+.portoheader-2 {
+    border: 1px solid black;
+    width: 70%;height: auto;
+    padding: 0vw;
+    margin: 5vw 2vw 0vw;
+}
+.content-head1-1 {
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+    padding: 1.5vw 0vw 1.5vw;
+    opacity: 80%;
+}
+.content-head1-2 {
+    text-align: center;
+    margin: 0;
+    padding: 2vw 0vw 0.2vw;
+}
+.content-head1-3 {
+    text-align: center;
+    font-size: 1.6vw;
+    opacity: 50%;
+    padding: 0vw 0vw 1vw;
+}
+.projek {
+    border-top: 1px solid black ;
+    margin: 0;
+    padding: 1vw 0vw 1vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.isi-projek {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 1vw 0vw 1vw;
+    text-align: center;
+    font-size: 1.8vw;
+    background-color: rgb(233, 236,239);
+}
+
+.isi-projek-work {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 1vw 2vw 1vw 2vw;
+    text-align: left;
+    font-size: 1.8vw;
+    background-color: rgb(233, 236,239);
+}
+.projek-edukasi {
+    
+    margin: 0;
+    padding: 1vw 0vw 0vw 2vw;
+    text-align: left;
+    font-size: 1.8vw;
+}
+/* -------- END CONTENT HEADER 1 -------------*/
+.content-nav {
+    font-size: 1.9vw;
+    display: flex;
+}
+.nav-head2-1 {
+    width: 50%; height: auto;
+    vertical-align: center;
+    text-align: left;
+    margin: 0;
+    padding: 1vw 0vw 1vw 1vw;
+}
+.nav-head2-2 {
+    width: 50%; height: auto;
+    vertical-align: center;
+    text-align: center;
+    margin: 0;
+    padding: 3vw 0vw 0vw 0vw;
+    opacity: 85%;
+}
+.content-head2-1 {
+    text-align: center;
+    font-size: 3vw;
+    margin: 0;
+    padding: 6vw 0vw 0.2vw;
+}
+.content-head2-2 {
+    text-align: center;
+    font-size: 2.2vw;
+    opacity: 50%;
+    padding: 0vw 0vw 1vw;
+}
+/* -----END CONTENT HEADER 2------------*/
+
+.portofolio-1 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 30.05%;height: auto;
+    padding: 0vw;
+    margin: 0vw 1.95vw 0vw;
+}
+.portofolio-2 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 69.75%;height: auto;
+    padding: 0vw;
+    margin: 0vw 2vw 0vw;
+    display: flex;
+}
+.content-porto2-1 {
+    width: 30%; height: auto;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0vw;
+}
+.content-porto2-2 {
+    width: 40%; height: auto;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0vw;
+}
+.content-porto2-3 {
+    width: 30%; height: auto;
+    border-bottom: 1px solid black;
+    margin: 0vw;
+}
+.isi-porto-projek-1 {
+    margin: 0;
+    padding: 0vw 0vw 0.5vw 2vw;
+    text-align: left;
+    font-size: 2vw;
+}
+.isi-porto-projek {
+    border-top: 1px solid black ;
+    margin: 0;
+    padding: 1vw 0vw 1.5vw 2vw;
+    text-align: left;
+    font-size: 2vw;
+}
+
+/* -----END CONTENT MAIN 2---------*/
+
+.portofooter-1 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 30.05%;height: auto;
+    padding: 0vw;
+    margin: 0vw 1.95vw 0vw;
+}
+.content-foot1-1 {
+    border: 1px solid black;
+    border-radius: 1.8vw;
+    margin: 1vw;
+    padding: 1vw;
+    -webkit-border-radius: 1.8vw;
+    -moz-border-radius: 1.8vw;
+    -ms-border-radius: 1.8vw;
+    -o-border-radius: 1.8vw;
+    font-size: 2vw;
+}
+.review-foot {
+    border-top: 1px solid black ;
+    margin: 0;
+    padding: 2vw 0vw 3vw 2vw;
+    text-align: left;
+    font-size: 2.5vw;
+}
+
+/* -----END CONTENT FOOTER 1---------*/
+.portofooter-2 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 69.75%;height: auto;
+    padding: 0vw;
+    margin: 0vw 2vw 0vw;
+}
+.content-foot2 {
+    display: flex;
+}
+.content-foot2-1 {
+    border: 1px solid black;
+    border-radius: 1.8vw;
+    margin: 1vw;
+    padding: 1vw;
+    -webkit-border-radius: 1.8vw;
+    -moz-border-radius: 1.8vw;
+    -ms-border-radius: 1.8vw;
+    -o-border-radius: 1.8vw;
+    font-size: 2.3vw;
+}
+/* -----END CONTENT FOOTER 2---------*/
+.social-links a {
+    padding-top: 5vw;
+    text-decoration: none;
+}
+main, header, footer {
+    display: flex;
+}
